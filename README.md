@@ -33,4 +33,9 @@ nlp作业，基于LLaMA-Factory
 ![2](data/2.png)
 ## 训练代码
 整个项目运行在colab上，具体代码保存在`nlp`中
+## 微调前后对比
+训练前：
+![3](data/3.png)
+训练后：
+![4](data/4.png)
 
