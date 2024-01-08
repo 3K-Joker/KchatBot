@@ -30,4 +30,6 @@ nlp作业，基于LLaMA-Factory
     预训练数据集的处理方法在`data/prePro.py`中,json 文件中存储一个列表，列表的每个元素是一个 sample。
 ## 微调参数
 ![1](data/1.png)
+## 训练代码
+整个项目运行在colab上，具体代码保存在`nlp`中
 
