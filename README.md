@@ -5,7 +5,7 @@ nlp作业，基于LLaMA-Factory
 * 使用爬虫爬取知乎的数据作为数据集，对模型进行指令微调
 * 尝试优化模型推理效率，使用模型量化技术优化推理速度
 
-    Model: LLaMA-7b
+    Model: ChineseLLaMA2-1.3B-Chat
   
     Device: Multi-GPU
 
@@ -30,6 +30,7 @@ nlp作业，基于LLaMA-Factory
     预训练数据集的处理方法在`data/prePro.py`中,json 文件中存储一个列表，列表的每个元素是一个 sample。
 ## 微调参数
 ![1](data/1.png)
+![2](data/2.png)
 ## 训练代码
 整个项目运行在colab上，具体代码保存在`nlp`中
 
