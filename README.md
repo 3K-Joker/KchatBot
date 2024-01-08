@@ -25,5 +25,9 @@ nlp作业，基于LLaMA-Factory
         "input": "",
         "output": "1，放弃对自己使用道德标准，..."
     }
-```
-  预训练数据集的处理方法在`data/prePro.py`中
+  ```
+
+    预训练数据集的处理方法在`data/prePro.py`中,json 文件中存储一个列表，列表的每个元素是一个 sample。
+## 微调参数
+[1]{/}
+
