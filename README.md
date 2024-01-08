@@ -4,3 +4,26 @@ nlp作业，基于LLaMA-Factory
 * 使用ChineseLLaMA2-1.3B模型作为基座模型
 * 使用爬虫爬取知乎的数据作为数据集，对模型使用LoRA进行指令微调
 * 尝试优化模型推理效率，使用模型量化技术优化推理速度
+
+    Model: LLaMA-7b
+  
+    Device: Multi-GPU
+
+  ---
+  ## 数据集
+  
+  数据集放置在项目`data`目录下的 json 文件，json 文件示例格式和字段说明如下：
+  
+  ```
+  {
+        "instruction": "艺术的本质是什么？",
+        "input": "",
+        "output": "艺术家们有想让时间停止的欲望。..."
+    },
+    {
+        "instruction": "家人得了帕金森病多年...",
+        "input": "",
+        "output": "1，放弃对自己使用道德标准，..."
+    }
+```
+  预训练数据集的处理方法在`data/prePro.py`中
