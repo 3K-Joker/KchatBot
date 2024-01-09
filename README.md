@@ -29,7 +29,7 @@ nlp作业，基于LLaMA-Factory
 
     预训练数据集的处理方法在`data/prePro.py`中,json 文件中存储一个列表，列表的每个元素是一个 sample。
 ## 微调参数
-采用8比特模型量化，动态RoPE插值，Flash_attn加速
+采用动态RoPE插值，Flash_attn加速
 ![1](data/1.png)
 ![2](data/2.png)
 ## 训练代码
